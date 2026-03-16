@@ -20,7 +20,7 @@ import * as config from '$lib/config';
 	
    /* justify-content: center; */
    text-align: left;
-   padding: 0rem 0rem 0rem 1rem;
+   padding: 0rem 1rem 0rem 1rem;
   
    }
    footer{
