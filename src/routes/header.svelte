@@ -18,7 +18,7 @@ import * as config from '$lib/config';
             <a href="/documents/Shayna_Carter_Resume.pdf" target="_blank">Resume</a>
         </li>
         <li>
-            <a href="https://linktr.ee/ShaynaSC" target="_blank">Contact</a>
+            <a href="https://linktr.ee/ShaynaSC" target="_blank">Socials</a>
         </li>
        
     </ul>
@@ -58,11 +58,11 @@ h2{
     a{
 color: white;
     padding: 0rem .5rem 0rem 1rem;
-     font-size: 2rem;
+     /* font-size: 2rem; */
     }
 
     /* For Small screens*/
-    @media (max-width: 430px){
+    @media (max-width: 540px){
 nav{
     display:flex;
     flex-direction: row;
@@ -79,13 +79,19 @@ nav{
     display: flex;
     flex-direction: row;
     gap: 0rem; 
-  
 }
 
  a{
     padding: 0rem .5rem 0rem 0rem;
     }
-   
+}
+
+@media (max-width: 820px){
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 0rem; 
+}
 }
 
 </style>
