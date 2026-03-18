@@ -61,8 +61,10 @@ color: white;
      /* font-size: 2rem; */
     }
 
-    /* For Small screens*/
-    @media (max-width: 540px){
+    /* For Small screens 540*/
+
+   
+    @media (max-width: 480px){
 nav{
     display:flex;
     flex-direction: row;
