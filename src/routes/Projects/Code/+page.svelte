@@ -30,13 +30,5 @@ import '$lib/shared-styles-image.css'
 <img src="/images/TOP_Paper.jpg" alt="ASCII art plotted on paper using pen plotter" class="image"/>
 <p class=sub>Image plotted on paper</p>
 
-
-
 </div></div>
 
-<!-- Image Modal -->
-
-<style>
-
-	
-</style>

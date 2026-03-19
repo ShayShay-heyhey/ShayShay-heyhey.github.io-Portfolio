@@ -20,7 +20,6 @@ import '$lib/shared-styles.css';
 <a href="/Projects/CNC"><img src="/images/CNC1.JPG" alt="Lyre" class="image" /></a>
 <p class=sub>Personal Project: Transforming 2D images into 3D releifs using CNC</p>
 
-
 <a href="/Projects/Code"><h2>Creative Coding</h2></a>
 <a href="/Projects/Code"><img src="/images/TOP_Song_SVG.png" alt="Lyre" class="image" /></a>
 <p class=sub>Personal Project: Developing a program to export images as ASCII art with personalized characters. To then be used for pen plotting.</p>

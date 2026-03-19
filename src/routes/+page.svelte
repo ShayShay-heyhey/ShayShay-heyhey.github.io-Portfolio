@@ -23,48 +23,6 @@ main{
     background-color: black;
 }
 
-.content {
-	display: flex;
-	gap: 2rem;
-	align-items: flex-start;
-	margin: 1rem 4rem 0rem 4rem;
-}
 
-.portrait {
-	width: 300px;
-	height: auto;
-	border-radius: 8px;
-	flex-shrink: 0;
-}
-
-.text {
-	flex: 1;
-}
-
-p {
-	color: aliceblue;
-	justify-content: center;
-	margin: 0 0 1rem 0;
-	font-size: 1.5rem;
-}
-
-
-@media (max-width: 768px) {
-	.content {
-		flex-direction: column;
-		align-items: center;
-		margin: 1rem 2rem;
-	}
-
-	.portrait {
-		width: 250px;
-	}
-}
-
-@media (max-width: 430px) {
-	p {
-		font-size: 1rem;
-	}
-}
 
 </style>

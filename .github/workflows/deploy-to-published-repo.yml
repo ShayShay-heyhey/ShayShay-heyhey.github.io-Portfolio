@@ -1,0 +1,36 @@
+name: Build and Deploy (to published repo)
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy build output into published repo
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.PAGES_DEPLOY_TOKEN }}
+          external_repository: ShayShay-heyhey/ShayShay-heyhey.github.io-Portfolio
+          publish_branch: main
+          publish_dir: ./build
+          destination_dir: .
+          keep_files: false
+          commit_message: "Deploy from source repo: ${{ github.repository }}@${{ github.sha }}"

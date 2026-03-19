@@ -13,7 +13,7 @@ import '$lib/shared-styles-image.css'
 
 <p>I converted the photograph into a depth map, generated a 3D STL model, and prepared CNC toolpaths to carve the image as a relief. This project combines digital fabrication, CAD modeling, and CNC machining to transform a two-dimensional photograph into a tactile three-dimensional surface.</p>
 
-<img src="/images/CNC1.JPG" alt="CNC Process" class="image" />
+<img src="/images/CNC1.JPG" alt="CNC Carving" class="image" />
 <p class=sub>CNC Carving of Statue</p>
 </div></div>
 
