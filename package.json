@@ -12,7 +12,6 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
 		"lint": "prettier --check ."
-		
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^7.0.0",
@@ -31,6 +30,23 @@
 		"vite": "^7.2.6"
 	},
 	"dependencies": {
-		"@sveltejs/adapter-static": "^3.0.10"
-	}
+		"@sveltejs/adapter-static": "^3.0.10",
+		"express": "^5.2.1"
+	},
+	"description": "Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).",
+	"main": "svelte.config.js",
+	"directories": {
+		"doc": "docs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ShayShay-heyhey/ShayShay-heyhey.github.io-Portfolio.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ShayShay-heyhey/ShayShay-heyhey.github.io-Portfolio/issues"
+	},
+	"homepage": "https://github.com/ShayShay-heyhey/ShayShay-heyhey.github.io-Portfolio#readme"
 }
