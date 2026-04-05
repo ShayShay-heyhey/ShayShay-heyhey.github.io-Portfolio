@@ -33,6 +33,21 @@ import '$lib/shared-styles-image.css'
 <img src="/images/Inc_Ren.jpg" alt="3D render" class="image" />
 <p class=sub>Incubator 3D Render</p>
 
+<p>I attached a video demonstrating testing of the incubation circuit. In the video, the temperature probe is placed in hot water, causing the fan speed to increase. When the probe is moved to cold water, the fan slows down.</p>
+
+
+<video controls class="image">
+<source src="/video/Testing1.mp4" type="video/mp4" />
+Your browser does not support the video tag.
+</video>
+
+
+<p class=sub>Incubation circuit test video</p>
+
+<p>The purpose of this test is to confirm that the Arduino is properly communicating with the temperature sensors and controlling the electronic components accordingly. This verifies that the system responds appropriately to changes in temperature.</p>
+
+<p>Since the incubator must maintain a constant temperature and humidity, it is crucial that all electronic components react accurately to environmental conditions.</p>
+
 <p>This project is currently in progress. We have completed the development and design phase and have moved into the construction phase of the system. The project is expected to be completed in early May. Click <a href="https://linktr.ee/Hypha.team?utm_source=linktree_profile_share&ltsid=6e31937d-958c-4b09-b01b-7525a9634d1f" target = "_blank"> here </a> to follow live project updates.</p>
 
 </div></div>
@@ -41,6 +56,17 @@ import '$lib/shared-styles-image.css'
 
 h2{
     margin-top: 2rem;
+}
+
+video.image {
+    width: min(100%, 900px);
+    height: auto;
+}
+
+@media (min-width: 1200px) {
+    video.image {
+        width: min(100%, 1100px);
+    }
 }
 
 </style>
