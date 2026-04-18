@@ -13,7 +13,7 @@ import '$lib/shared-styles-image.css'
 <p class=sub>Structure Composed of Mycleium Bricks</p>
 
 <p>This project explores how automated fabrication systems can improve the consistency, scalability, and accessibility of mycelium material production, which is often currently done through labor-intensive manual processes.</p>
-
+<hr>
 <h2>My Role</h2>
 
 <p>I designed and developed the incubation system used to grow the mycelium bricks after inoculation.</p>
@@ -32,6 +32,8 @@ import '$lib/shared-styles-image.css'
 
 <img src="/images/Inc_Ren.jpg" alt="3D render" class="image" />
 <p class=sub>Incubator 3D Render</p>
+<hr>
+<h2>Circuit Development</h2>
 
 <p>I attached a video demonstrating testing of the incubation circuit. In the video, the temperature probe is placed in hot water, causing the fan speed to increase. When the probe is moved to cold water, the fan slows down.</p>
 
@@ -47,6 +49,19 @@ Your browser does not support the video tag.
 <p>The purpose of this test is to confirm that the Arduino is properly communicating with the temperature sensors and controlling the electronic components accordingly. This verifies that the system responds appropriately to changes in temperature.</p>
 
 <p>Since the incubator must maintain a constant temperature and humidity, it is crucial that all electronic components react accurately to environmental conditions.</p>
+<hr>
+<h2>Misting System Development</h2>
+
+<p>The misting system is designed to maintain the appropriate humidity levels within the incubator, which is essential for the optimal growth of mycelium bricks. This system uses sensors to monitor humidity and automatically activate misting nozzles when needed.</p>
+
+<p>The video shows the misting system functioning properly after testing different pressure levels and verifying that the nozzles activate as needed to maintain the desired humidity within the incubator environment.</p>
+
+<video controls class="image">
+<source src="/video/misting.mp4" type="video/mp4" />
+Your browser does not support the video tag.
+</video>
+<p class=sub>Misting system test video</p>
+<hr>
 
 <p>This project is currently in progress. We have completed the development and design phase and have moved into the construction phase of the system. The project is expected to be completed in early May. Click <a href="https://linktr.ee/Hypha.team?utm_source=linktree_profile_share&ltsid=6e31937d-958c-4b09-b01b-7525a9634d1f" target = "_blank"> here </a> to follow live project updates.</p>
 

@@ -13,7 +13,11 @@
 		  <p>  My background is in engineering science, where I focus on digital fabrication technologies like CNC machining, 3D printing, and laser cutting. Over time, I became fascinated with how code and algorithms can generate complex visual structures that would be difficult to design by hand.
 
 		Today my work explores generative systems, computational design, and fabrication processes that transform digital ideas into physical objects. </p>
+
+	
 	</div>
+
+	
 </div>
 </main>
 
